@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: registry
+
+server:
+    port: 8761 #启动端口
+
+eureka:
+    client:
+        registerWithEureka: false  #false:不作为一个客户端注册到注册中心,一般为false
+        fetchRegistry: false      #发现注册中心的过程
